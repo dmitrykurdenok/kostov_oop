@@ -7,7 +7,7 @@ const int NUM = 20;
 
 int main()
 {
-	srand(time(nullptr));
+	srand(static_cast<unsigned int>(time(nullptr)));
 	
 	std::cout << shape::get_count() << std::endl;
 
